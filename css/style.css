@@ -43,7 +43,7 @@ nav a {
     margin-left: 30px;
     color: rgba(51, 3, 47, 0.6);
     font-weight: bold;
-    font-size: small;
+    font-size: 1rem;
 }
 
 nav a:hover {
