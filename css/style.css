@@ -1,0 +1,218 @@
+/*
+Color palette 1 (purple) (https://coolors.co/33032f-a288a6-bb9bb0-ccbcbc-f1e3e4)
+rgb(51, 3, 47)
+rgb(162, 136, 166)
+rgb(187, 155, 176)
+rgb(204, 188, 188)
+rgb(241, 227, 228)
+
+Color palette 2 (grey) (https://coolors.co/463f3a-8a817c-bcb8b1-f4f3ee-e0afa0)
+rgb(70, 63, 58)
+rgb(138, 129, 124)
+rgb(188, 184, 177)
+rgb(244, 243, 238)
+rgb(224, 175, 160)
+*/
+
+
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    border: 5px solid rgba(51, 3, 47, 0.85);
+    border-radius: 12px;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    background-color: rgb(204, 188, 188);
+    border-bottom: 2px solid black;
+    padding: 35px 8vw;
+    border-radius: 6px 6px 0px 0px;
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    margin-left: 30px;
+    color: rgba(51, 3, 47, 0.6);
+    font-weight: bold;
+    font-size: small;
+}
+
+nav a:hover {
+    color: rgb(241, 227, 228);
+}
+
+nav div {
+    background-color: rgb(51, 3, 47);
+    color: rgb(204, 188, 188);
+    border-radius: 6px;
+    padding: 1vw 2vw;
+    flex-basis: 12vw;
+    display: flex;
+    justify-content: center;
+}
+
+nav img {
+    width: 70%;
+}
+
+
+h1 {
+    margin-top: 10px;
+    font-size: 3rem;
+    color: rgb(51, 3, 47);
+    padding-bottom: 20px;
+}
+
+header {
+    padding: 100px 8vw;
+    border-bottom: 2px solid rgb(51, 3, 47);
+}
+
+header>div {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+header>div>div:first-child {
+    border: 2px solid rgb(51, 3, 47);
+    flex-grow: 4;
+    flex-basis: 50vw;
+}
+
+header>div>div:last-child {
+    flex-grow: 1;
+    flex-basis: 5vw;
+}
+
+header h2 {
+    font-weight: 5000;
+    font-size: 2.5rem;
+    margin-left: 20px;
+}
+
+header a {
+    padding: 20px 13vw;
+    background-color: rgb(51, 3, 47);
+    border-radius: 8px;
+    color: rgb(241, 227, 228);
+    border: 2px solid rgb(51, 3, 47);
+}
+
+header a:hover {
+    color: rgb(51, 3, 47);
+    background-color: rgb(241, 227, 228);
+}
+
+header p {
+    margin-bottom: 70px;
+}
+
+main>section:first-child {
+    display: flex;
+    padding: 100px 8vw;
+    gap: 30px;
+    align-items: center;
+}
+
+header img {
+    width: 100%;
+}
+
+
+main>section:first-child>div:first-child {
+    background-color: rgb(204, 188, 188);
+    padding: 3vw;
+    flex-basis: 4vw;
+    flex-grow: 1;
+    align-self: flex-start;
+    font-size: smaller;
+}
+
+main>section:first-child>div:first-child h2{
+    font-weight: 2000;
+}
+
+main>section:first-child>div:last-child {
+    flex-basis: 12vw;
+    flex-grow: 2;
+    align-self: flex-end;
+}
+
+main>section:first-child>div:last-child h2 {
+    font-weight: 2000;
+    font-size: xx-large;
+}
+
+main>section:first-child p {
+    color: rgba(51, 3, 47, 1);
+}
+
+main>section:last-child {
+    background-color: rgb(204, 188, 188);
+    padding: 8vw 16vw;
+}
+
+main>section:last-child>div {
+    display: flex;
+    gap: 2vw;
+    padding: 1vw 5vw;
+}
+
+main>section:last-child>div>div {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 5vw;
+}
+
+main>section:last-child>div>div>div {
+    display: flex;
+    justify-content: center;
+}
+
+main>section:last-child>h2,
+main>section:last-child h3 {
+    text-align: center;
+}
+
+main>section:last-child h2 {
+    font-size: xx-large;
+}
+
+main>section:last-child h3 {
+    font-size: x-large;
+    flex-basis: 4vw;
+}
+
+main>section:last-child img {
+    border: 2px solid rgb(51, 3, 47);
+    width: 40%;
+
+}
+
+main>section:last-child p {
+    color: rgba(51, 3, 47, 0.8);
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(51, 3, 47);
+    padding: 4vw 12vw;
+    text-align: center;
+    font-size: smaller;
+    border-radius: 0px 0px 6px 6px;
+}
+
+footer a {
+    color: rgb(204, 188, 188);
+    margin-right: 3vw;
+}
