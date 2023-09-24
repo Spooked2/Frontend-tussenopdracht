@@ -191,6 +191,7 @@ main>section:last-child h2 {
 main>section:last-child h3 {
     font-size: x-large;
     flex-basis: 4vw;
+    margin-bottom: 0px;
 }
 
 main>section:last-child img {
